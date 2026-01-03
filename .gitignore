@@ -1,0 +1,37 @@
+# Hardhat
+node_modules
+artifacts
+cache
+coverage
+coverage.json
+typechain
+typechain-types
+
+# General
+.DS_Store
+.env
+wallet.env
+.idea
+.vscode
+
+# Frontend
+frontend/node_modules
+frontend/dist
+frontend/.env
+.vercel
+
+# Internal Documentation (exclude from GitHub)
+# Keep only README.md for public documentation
+DEPLOYMENT_CHECKLIST.md
+DEPLOYMENT_GUIDE.md
+DEPLOYMENT_COMPLETE.md
+DEPLOY_NOW.md
+DOCUMENTATION_INDEX.md
+DONOR_DASHBOARD_FIX.md
+GITHUB_PUSH_GUIDE.md
+HOSTING_GUIDE.md
+INSUFFICIENT_FUNDS_FIX.md
+QUICK_COMMANDS.md
+VERCEL_404_FIX.md
+VERCEL_DEPLOYMENT_STEPS.md
+VERCEL_VS_NETLIFY.md
