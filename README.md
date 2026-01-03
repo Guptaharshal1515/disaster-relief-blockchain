@@ -1,4 +1,4 @@
-# 🚀 Emergency & Disaster Relief Stablecoin System
+#  Emergency & Disaster Relief Stablecoin System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.28-blue)](https://soliditylang.org/)
@@ -12,7 +12,7 @@ Built for **E-Summit'26** - Leveraging blockchain technology to revolutionize hu
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Problem Statement](#-problem-statement)
 - [Solution](#-solution)
 - [Key Features](#-key-features)
@@ -28,7 +28,7 @@ Built for **E-Summit'26** - Leveraging blockchain technology to revolutionize hu
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 In the aftermath of disasters, traditional financial aid systems face critical challenges:
 - ⏱️ **Delayed Funds**: Victims wait days or weeks for relief
@@ -38,7 +38,7 @@ In the aftermath of disasters, traditional financial aid systems face critical c
 
 ---
 
-## 💡 Solution
+##  Solution
 
 A **Blockchain-based Disaster Relief System** that ensures:
 
@@ -50,27 +50,27 @@ A **Blockchain-based Disaster Relief System** that ensures:
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### For Victims 🆘
+### For Victims 
 - **Auto-Withdrawal**: Instant access to ₹8000 (~0.029 ETH) without approval
 - **Additional Requests**: Request higher amounts with admin verification
 - **24-Hour Cooldown**: Fair distribution with enforced waiting periods
 - **Withdrawal History**: Track all past transactions
 
-### For Donors 💰
+### For Donors 
 - **Crypto Donations**: Contribute ETH directly to the relief fund
 - **Transaction Transparency**: View all donations on-chain
 - **Instant Impact**: Funds immediately available for distribution
 
-### For Admins 👨‍💼
+### For Admins 
 - **Request Management**: Review and approve victim requests
 - **Fund Allocation**: Authorize additional relief amounts
 - **Dashboard Analytics**: Monitor fund flow and distributions
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Blockchain
 - **Solidity** `^0.8.28` - Smart contract development
@@ -91,7 +91,7 @@ A **Blockchain-based Disaster Relief System** that ensures:
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -116,7 +116,7 @@ A **Blockchain-based Disaster Relief System** that ensures:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - **Node.js** (v16 or higher)
@@ -162,7 +162,7 @@ A **Blockchain-based Disaster Relief System** that ensures:
    npx hardhat run scripts/deploy.js --network sepolia
    ```
    
-   📝 **Copy the deployed contract address!**
+    **Copy the deployed contract address!**
 
 7. **Install frontend dependencies**
    ```bash
@@ -188,52 +188,10 @@ A **Blockchain-based Disaster Relief System** that ensures:
 
 ---
 
-## 🌐 Deployment
 
-### Deploy Frontend to Vercel
+##  User Flows
 
-1. **Install Vercel CLI**
-   ```bash
-   npm install -g vercel
-   ```
-
-2. **Navigate to frontend directory**
-   ```bash
-   cd frontend
-   ```
-
-3. **Deploy**
-   ```bash
-   vercel
-   ```
-   
-   Follow the prompts and your app will be live!
-
-### Deploy Frontend to Netlify
-
-1. **Build the frontend**
-   ```bash
-   cd frontend
-   npm run build
-   ```
-
-2. **Install Netlify CLI**
-   ```bash
-   npm install -g netlify-cli
-   ```
-
-3. **Deploy**
-   ```bash
-   netlify deploy --prod --dir=dist
-   ```
-
-> 📖 See [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md) for detailed deployment instructions.
-
----
-
-## 👥 User Flows
-
-### 🆘 Victim Flow
+###  Victim Flow
 1. Select "Victim" role
 2. Enter Aadhaar number (simulated)
 3. Connect MetaMask wallet
@@ -242,7 +200,7 @@ A **Blockchain-based Disaster Relief System** that ensures:
 6. Wait for admin approval (if requesting more)
 7. Withdraw approved funds
 
-### 💰 Donor Flow
+###  Donor Flow
 1. Select "Donor" role
 2. Connect MetaMask wallet
 3. Enter donation amount (min 0.01 ETH)
@@ -250,7 +208,7 @@ A **Blockchain-based Disaster Relief System** that ensures:
 5. Approve transaction in MetaMask
 6. Receive transaction confirmation
 
-### 👨‍💼 Admin Flow
+###  Admin Flow
 1. Select "Admin" role
 2. Connect MetaMask wallet (must be contract deployer)
 3. View pending victim requests
@@ -260,7 +218,7 @@ A **Blockchain-based Disaster Relief System** that ensures:
 
 ---
 
-## 📜 Smart Contract Details
+##  Smart Contract Details
 
 ### DisasterReliefFund.sol
 
@@ -281,20 +239,10 @@ A **Blockchain-based Disaster Relief System** that ensures:
 - `RequestApproved(address victim, uint256 amount)`
 - `FundsWithdrawn(address victim, uint256 amount)`
 
----
-
-## 📸 Screenshots
-
-> Add screenshots of your application here:
-> - Landing page with role selection
-> - Victim dashboard
-> - Donor dashboard
-> - Admin dashboard
-> - MetaMask integration
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -312,7 +260,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Built for **E-Summit'26** Blockchain Challenge
 - Inspired by the need for transparent disaster relief
@@ -320,11 +268,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Contact
-
-For questions or support, please open an issue or contact the maintainers.
-
-**Project Link**: [https://github.com/yourusername/disaster-relief-blockchain](https://github.com/yourusername/disaster-relief-blockchain)
+**Project Link**: [https://github.com/Guptaharshal1515/disaster-relief-blockchain](https://github.com/Guptaharshal1515/disaster-relief-blockchain)
 
 ---
 
