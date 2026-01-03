@@ -128,7 +128,7 @@ A **Blockchain-based Disaster Relief System** that ensures:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/disaster-relief-blockchain.git
+   git clone https://github.com/Guptaharshal1515/disaster-relief-blockchain.git
    cd disaster-relief-blockchain
    ```
 
